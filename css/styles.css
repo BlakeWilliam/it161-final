@@ -45,7 +45,6 @@ h1, h2 {
     border: 3px solid black;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    justify-content: justify;
     text-align: justify;
 }
 
@@ -69,7 +68,6 @@ h1, h2 {
     border: 3px solid black;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    justify-content: justify;
     text-align: justify;
 }
 
@@ -81,7 +79,7 @@ h1, h2 {
     border-bottom-left-radius: 50px;    
 }
 
-.grid-container-full, {
+.grid-container-full {
     display: grid;
     grid-template-columns: 100%;
     padding-top: 25px;
@@ -90,13 +88,11 @@ h1, h2 {
     border: 3px solid black;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    justify-content: justify;
     text-align: justify;
 }
 
 .full-img {
-    width: 100%;
-    max-height: auto;  
+    width: 100%;  
 }
 
 .img-container {
@@ -134,7 +130,6 @@ h1, h2 {
 #footer > div {
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    justify-content: justify;
     text-align: center;
 }
 
@@ -150,23 +145,21 @@ a:hover {
 }
 
 .btn {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-  background-color: #ddd;
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition: 0.3s;
+    background-color: #ddd;
+    border: 2px solid #000000;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 1s;
     border-radius: 10px 10px 10px 10px
 }
 
 .btn:hover {
-  background-color: #000000;
-  color: white;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: white;
 }
     
 .bdr-top {
